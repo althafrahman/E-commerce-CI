@@ -1,0 +1,95 @@
+.navbars{
+    background-color: #fc0339;
+    padding: 10px 50px;
+    display:flex;
+    justify-content: space-between
+}
+.navbars-admin{
+    background-color: blue;
+    padding: 10px 50px;
+    display:flex;
+    justify-content: space-between
+}
+
+body{
+    background: #f0f0f0
+}
+
+.navbars-link a{
+    margin: 0 10px;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    color: #fff
+}
+
+.linktohome{
+    text-decoration: none;
+    color: #fff;
+}
+
+.linktohome:hover{
+    text-decoration: none;
+    color: #ccc;
+}
+
+.navbars-link a:hover{
+    transition: 0.2s;
+    color: #ccc
+}
+
+.navbar-search img,input{
+    margin : 0 10px;
+}
+
+.store-name{
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Lemonada', cursive;
+}
+
+.search-box{
+    border-radius: 5px;
+    border : 1px solid #ccc;
+    padding : 2px;
+    font-family: 'Raleway', sans-serif;
+}
+.search-box:focus{
+    outline: none
+}
+.listing-section{
+    display : flex;
+    margin: 10px 0;
+    justify-content: space-between
+}
+.filter-section{
+    width: 23%;
+    background: #fff;
+}
+.products-section{
+    width : 75%;
+    background: #fff;
+}
+
+.second-navbars{
+    background-color: #fc0339;
+    padding: 10px 10px;
+    padding-bottom: 0px;
+    display:flex;
+    justify-content: space-between
+}
+.text-all ,.fa{
+    color:white;
+}
+
+.zoom {
+    transition: .2s; /* Animation */
+  }
+  
+  .zoom:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+
+
